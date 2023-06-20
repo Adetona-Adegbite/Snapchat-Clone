@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.top-left {
+  width: 385px;
+  height: 15vh;
+  background: #121212;
+}
+
+.top-left .top {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dp {
+  background: rgb(30, 30, 30);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.dp img {
+  height: 40px;
+  width: 40px;
+}
+
+.sc {
+  background: url("./logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+.compose {
+  background: rgb(0, 213, 255);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.bottom {
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bottom input {
+  width: 80%;
+  height: 80%;
+  border-radius: 50px;
+  border: 1px solid rgb(79, 79, 79);
+}
+
+.bottom input::placeholder {
+  padding: 20px;
+  background: #1e1e1e;
+}
+
+.bottom-left {
+  width: 385px;
+  height: calc(
+    100vh - 15vh
+  ); /* Adjusted height to fill remaining vertical space */
+  overflow-y: auto;
+}
+.bottom-left::-webkit-scrollbar {
+  display: none;
+}
+.right-chat h3 {
+  font-size: 1.1rem;
+}
+.chatbox {
+  display: flex;
+  width: 385px;
+  height: 80px;
+  background: #1e1e1e;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.chatbox:hover {
+  background: rgb(47, 47, 47);
+}
+
+.left-chat {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-chat .profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgb(10, 10, 10);
+}
+.profile img {
+  
+}
+
+.right-chat {
+  flex: 4;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: left;
+  padding: 10px 0 0 10px;
+  gap: 10px;
+  color: white;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.new-chat {
+  flex: 3;
+  font-size: 0.9rem; /* Fixed typo: changed 'font-:' to 'font-size' */
+}
+
+.time {
+  flex: 1;
+}
+
+.streaks {
+  flex: 1;
+}
+
+.noti {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noti-icon {
+  background: rgb(195, 5, 195);
+  width: 25%;
+  height: 20%;
+  border-radius: 5px;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 385px minmax(500px, 2000px);
+}
+
+.left {
+  overflow-y: hidden; /* Removed 'overflow' property from global selector */
+}
+
+.right {
+  background: #121212;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.right img {
+  width: 97%;
+  height: 97vh;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+.profile img {
+  width: 60px;
+  height: 60px;
+  margin: 0px 2px;
+}
