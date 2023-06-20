@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Snapchat-Clone/static/css/main.80767c65.css",
+    "main.js": "/Snapchat-Clone/static/js/main.a50cba80.js",
+    "static/media/snap-background.jpeg": "/Snapchat-Clone/static/media/snap-background.9661707793f1c2cedf37.jpeg",
+    "index.html": "/Snapchat-Clone/index.html",
+    "main.80767c65.css.map": "/Snapchat-Clone/static/css/main.80767c65.css.map",
+    "main.a50cba80.js.map": "/Snapchat-Clone/static/js/main.a50cba80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80767c65.css",
+    "static/js/main.a50cba80.js"
+  ]
+}
